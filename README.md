@@ -1,10 +1,13 @@
 # Whisky
 
-## a tiny view manager for mootools.
+### a tiny view manager for mootools.
 
-To compile the source: 
+---
+
+To compile the coffeescript source: 
   
-  ```bash
-    coffee -c whisky.coffee
-  ```
+Install [coffee compiler](http://jashkenas.github.com/coffee-script/#installation) and then run
   
+```bash
+coffee -c whisky.coffee
+```

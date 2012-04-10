@@ -1,6 +1,6 @@
 # Whisky
 
-### a tiny view manager for mootools.
+### a tiny view manager for mootools. Written in [coffeescript](http://jashkenas.github.com/coffee-script/), as an experiment, just for fun.
 
 ---
 

@@ -1,6 +1,15 @@
-###
-  helper to use mootools Class with coffee
-###
+#
+# Whisky
+# -----------------------
+# a tiny view manager for mootools. Written in coffeescript, as an experiment, just for fun.
+#
+# license: MIT-style license.
+#
+# author: Stefano Ceschi Berrini <stefano.ceschib@gmail.com>
+#
+
+
+# helper to use mootools Class with coffee
 
 @merge     = (obj,   args)    ->  (obj[key] = value for key, value of props for props in args); obj
 @extend    = (klass, args...) ->  merge {    Extends: klass }, args

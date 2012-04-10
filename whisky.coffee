@@ -1,3 +1,12 @@
+###
+  helper to use mootools Class with coffee
+###
+
+@merge     = (obj,   args)    ->  (obj[key] = value for key, value of props for props in args); obj
+@extend    = (klass, args...) ->  merge {    Extends: klass }, args
+@implement = (klass, args...) ->  merge { Implements: klass }, args
+
+
 
 Whisky = @Whisky = 
   VERSION : '0.1' # Current version of the fw.
